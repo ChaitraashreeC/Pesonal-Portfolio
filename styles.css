@@ -1,0 +1,197 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.container-top, .container-bottom {
+    flex: 1;
+    background-color: black;
+}
+.container-top {
+    margin-bottom: -15px;
+}
+.container-bottom {
+    margin-top: -15px;
+    border-top: 10px solid darkseagreen;
+}
+.c::first-letter {
+    font-size: 100px;
+    font-weight: bolder;
+    color: darkseagreen;
+}
+.c {
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    padding: 30px;
+    text-shadow: 
+        -1px -1px 0 darkseagreen,  
+        1px -1px 0 darkseagreen,
+        -1px  1px 0 darkseagreen,
+        1px  1px 0 darkseagreen;
+}
+.container_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about {
+    border: 5px solid powderblue;
+    width: 1200px;
+    height: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about_name {
+    color: powderblue;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.about_info {
+    color:lightsteelblue;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav ul {
+    list-style-type: none; 
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+}
+nav ul li a:link {
+    color: lightsteelblue;
+}
+nav ul li a:visited {
+    color: darkseagreen;
+}
+nav ul li a:active {
+    text-decoration: underline;
+}
+nav ul li a:hover {
+    color: whitesmoke
+}
+nav, .contact{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact {
+    font-size: 20px;
+    margin-left: 120px;
+    padding: 20px;
+    border: 5px solid lightsteelblue;
+    color: lightsteelblue;
+    font-weight: bolder;
+    background-color: black;
+    cursor: pointer;
+    margin-top: 20px;
+}
+section h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: lightsteelblue;
+}
+#education h1 {
+    padding-top: 50px;
+}
+#education table, #skills table, .projects_info, .achievements_info {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.ea, .sa {
+    text-align: start;
+    padding: 30px;
+    padding-top: 0;
+    font-size: 20px;
+    color: darkseagreen;
+    line-height: 50px;
+    text-align: justify;
+}
+.projects_info, .achievements_info {
+    color: darkseagreen;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: justify;
+}
+.projects_info ul, .achievements_info ul {
+    list-style-type: square;
+}
+.end {
+    padding-bottom: 50px;
+}
+.details_box {
+    border: 5px solid whitesmoke;
+    width: 30%;
+    height: 580px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.details {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.details_info {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 20px;
+}
+.details_input {
+    border: 2px solid whitesmoke;
+    background-color: black;
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.submit {
+    font-size: 20px;
+    padding: 20px;
+    border: 5px solid whitesmoke;
+    color: whitesmoke;
+    font-weight: bolder;
+    background-color: black;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.container_b {
+    background-color: black;
+    border-top: 10px solid lightgreen;
+    border-bottom: 10px solid lightgreen;
+}
+
+.left{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   margin-left: 100px;
+   margin-top: 100px;
+}
+.left a {
+    margin-bottom: 20px;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+}
+.right {
+    margin-left: 200px;
+    margin-top: -330px
+}
